@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed May  3 00:57:42 2023
+# Process ID: 15736
+# Current directory: C:/Projects/ipcore_integration_v2/full_64_hdl/vivado_ip_prj
+# Command line: vivado.exe -mode batch -notrace -source vivado_create_prj.tcl
+# Log file: C:/Projects/ipcore_integration_v2/full_64_hdl/vivado_ip_prj/vivado.log
+# Journal file: C:/Projects/ipcore_integration_v2/full_64_hdl/vivado_ip_prj\vivado.jou
+#-----------------------------------------------------------
+source vivado_create_prj.tcl -notrace
+WARNING: [Project 1-153] The current project device 'xc7z020clg400-1' does not match with the device on the 'KRTKL.COM:SNICKERDOODLE_BLACK:PART0:1.0' board part. A device change to match the device on 'KRTKL.COM:SNICKERDOODLE_BLACK:PART0:1.0' board part is being done. Please upgrade the IP in the project via the upgrade_ip command or by selecting Reports => Reports IP Status.
+INFO: [Project 1-152] Project part set to zynq (xc7z020clg400-3)
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/ipcore_integration_v2/full_64_hdl/vivado_ip_prj/ipcore'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+Wrote  : <C:\Projects\ipcore_integration_v2\full_64_hdl\vivado_ip_prj\src\design_1\design_1.bd> 
+INFO: [BD_TCL-6] Checking if the following IPs exist in the project's IP catalog:  
+craftdrones:user:blink:1.0 xilinx.com:user:cameras_wrapper:1.0 xilinx.com:ip:fifo_generator:13.2 xilinx.com:user:line_buffer:1.0 xilinx.com:ip:processing_system7:5.5  .
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_0Executing the post_config_ip from bd
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_0Executing the post_config_ip from bd
+INFO: [PS7-6] Configuring Board Preset part0. Please wait ......
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cam_pclk1(clk) and /cameras_wrapper_0/cam_pclk1_0(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cam_pclk(clk) and /cameras_wrapper_0/cam_pclk_0(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cam_xclk(clk) and /cameras_wrapper_0/cam_xclk_0(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cam_xclk1(clk) and /cameras_wrapper_0/cam_xclk_0(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/irq_0(undef) and /processing_system7_0/IRQ_F2P(intr)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/irq_0(undef) and /ps7_0_axi_periph/M01_ARESETN(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/peripheral_aresetn_0(undef) and /line_buffer_0/resetn(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/peripheral_aresetn_0(undef) and /ps7_0_axi_periph/ARESETN(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/peripheral_aresetn_0(undef) and /ps7_0_axi_periph/M00_ARESETN(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/peripheral_aresetn_0(undef) and /ps7_0_axi_periph/S00_ARESETN(rst)
+WARNING: [BD 41-1306] The connection to interface pin /fifo_generator_0/dout is being overridden by the user. This pin will not be connected as a part of interface connection FIFO_READ
+WARNING: [BD 41-1306] The connection to interface pin /fifo_generator_0/din is being overridden by the user. This pin will not be connected as a part of interface connection FIFO_WRITE
+WARNING: [BD 41-1306] The connection to interface pin /fifo_generator_0/rd_en is being overridden by the user. This pin will not be connected as a part of interface connection FIFO_READ
+WARNING: [BD 41-1731] Type mismatch between connected pins: /fifo_generator_0/rst(undef) and /line_buffer_0/reset_fifo(rst)
+WARNING: [BD 41-1306] The connection to interface pin /fifo_generator_0/wr_en is being overridden by the user. This pin will not be connected as a part of interface connection FIFO_WRITE
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/resetn_0(undef) and /processing_system7_0/FCLK_RESET0_N(rst)
+Wrote  : <C:\Projects\ipcore_integration_v2\full_64_hdl\vivado_ip_prj\src\design_1\design_1.bd> 
+Wrote  : <C:/Projects/ipcore_integration_v2/full_64_hdl/vivado_ip_prj/src/design_1/ui/bd_1f5defd0.ui> 
+WARNING: [BD_TCL-1000] This Tcl script was generated from a block design that has not been validated. It is possible that design <design_1> may result in errors during validation.
+INFO: [Common 17-206] Exiting Vivado at Wed May  3 00:57:55 2023...

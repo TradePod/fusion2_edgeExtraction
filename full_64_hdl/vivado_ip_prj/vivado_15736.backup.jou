@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed May  3 00:57:42 2023
+# Process ID: 15736
+# Current directory: C:/Projects/ipcore_integration_v2/full_64_hdl/vivado_ip_prj
+# Command line: vivado.exe -mode batch -notrace -source vivado_create_prj.tcl
+# Log file: C:/Projects/ipcore_integration_v2/full_64_hdl/vivado_ip_prj/vivado.log
+# Journal file: C:/Projects/ipcore_integration_v2/full_64_hdl/vivado_ip_prj\vivado.jou
+#-----------------------------------------------------------
+source vivado_create_prj.tcl -notrace

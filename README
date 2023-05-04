@@ -1,0 +1,16 @@
+Tested working with Fusion2 (snickerdoodle black w/ cams) Matlab 2022A and Vivado 2019.1
+
+Simulink models designed to be targed to fusion2.0 camera w/ snickerdodole black via AXI interface
+
+setup.m constants are only relevant in simulink; if you have ports with constants that are to be changeable via AXI-Lite YOU NEED TO WRITE TO THE MEM ADDR otherwise theyll be 0s or something
+
+
+
+Support files:
+	- Drivers: for windows use snickComPortDriver for usb com comms
+	- Software: filezilla and terraterm are nice for interfacing and transfering stuff
+
+
+To do:
+	- Seperate individual IPs for each block/filter and run test integration in vivado
+	- Throw onto fusion2 to make sure it all still works 

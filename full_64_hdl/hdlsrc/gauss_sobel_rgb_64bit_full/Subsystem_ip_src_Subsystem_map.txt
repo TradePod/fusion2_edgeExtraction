@@ -1,0 +1,27 @@
+ --> Subsystem_ip_src_Subsystem_pkg
+SimpleDualPortRAM_generic --> Subsystem_ip_src_SimpleDualPortRAM_generic
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_gauss/Subsystem1/slicer R operation1 --> Subsystem_ip_src_slicer_R_operation1
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_gauss/Subsystem1/slicer R operation2 --> Subsystem_ip_src_slicer_R_operation2
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_gauss/Subsystem1/slicer R operation3 --> Subsystem_ip_src_slicer_R_operation3
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_gauss/Subsystem1/slicer R operation4 --> Subsystem_ip_src_slicer_R_operation4
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_gauss/Subsystem1/slicer R operation5 --> Subsystem_ip_src_slicer_R_operation5
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_gauss/Subsystem1/slicer R operation6 --> Subsystem_ip_src_slicer_R_operation6
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_gauss/Subsystem1 --> Subsystem_ip_src_Subsystem1
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_gauss --> Subsystem_ip_src_conv_core_gauss
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_sobel1/Subsystem1/conv X --> Subsystem_ip_src_conv_X
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_sobel1/Subsystem1/conv X1 --> Subsystem_ip_src_conv_X1
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_sobel1/Subsystem1/conv Y --> Subsystem_ip_src_conv_Y
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_sobel1/Subsystem1/conv Y1 --> Subsystem_ip_src_conv_Y1
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_sobel1/Subsystem1/slicer L operation1 --> Subsystem_ip_src_slicer_L_operation1
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_sobel1/Subsystem1/slicer R operation --> Subsystem_ip_src_slicer_R_operation
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_sobel1/Subsystem1 --> Subsystem_ip_src_Subsystem1_block
+gauss_sobel_rgb_64bit_full/Subsystem/conv_core_sobel1 --> Subsystem_ip_src_conv_core_sobel1
+gauss_sobel_rgb_64bit_full/Subsystem/rgb_filter/Subsystem1/comparison --> Subsystem_ip_src_comparison
+gauss_sobel_rgb_64bit_full/Subsystem/rgb_filter/Subsystem1/comparison1 --> Subsystem_ip_src_comparison1
+gauss_sobel_rgb_64bit_full/Subsystem/rgb_filter/Subsystem1/comparison2 --> Subsystem_ip_src_comparison2
+gauss_sobel_rgb_64bit_full/Subsystem/rgb_filter/Subsystem1/comparison3 --> Subsystem_ip_src_comparison3
+gauss_sobel_rgb_64bit_full/Subsystem/rgb_filter/Subsystem1/comparison4 --> Subsystem_ip_src_comparison4
+gauss_sobel_rgb_64bit_full/Subsystem/rgb_filter/Subsystem1/comparison6 --> Subsystem_ip_src_comparison6
+gauss_sobel_rgb_64bit_full/Subsystem/rgb_filter/Subsystem1 --> Subsystem_ip_src_Subsystem1_block1
+gauss_sobel_rgb_64bit_full/Subsystem/rgb_filter --> Subsystem_ip_src_rgb_filter
+gauss_sobel_rgb_64bit_full/Subsystem --> Subsystem_ip_src_Subsystem
