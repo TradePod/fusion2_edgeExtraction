@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May  4 18:22:00 2023
+# Process ID: 11592
+# Current directory: C:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj
+# Command line: vivado.exe -mode batch -notrace -source vivado_insert_ip.tcl
+# Log file: C:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj/vivado.log
+# Journal file: C:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj\vivado.jou
+#-----------------------------------------------------------
+source vivado_insert_ip.tcl -notrace
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj/ipcore'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-949] Unzipped './ipcore/Subsystem_ip_v1_0.zip' into repository 'c:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj/ipcore'.
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj/ipcore'
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+Adding component instance block -- craftdrones:user:blink:1.0 - blink_0
+Adding component instance block -- xilinx.com:user:cameras_wrapper:1.0 - cameras_wrapper_0
+Adding component instance block -- xilinx.com:ip:fifo_generator:13.2 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_0Executing the post_config_ip from bd
+Adding component instance block -- xilinx.com:user:line_buffer:1.0 - line_buffer_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cam_pclk1(clk) and /cameras_wrapper_0/cam_pclk1_0(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cam_pclk(clk) and /cameras_wrapper_0/cam_pclk_0(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/cam_xclk_0(undef) and /cam_xclk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/cam_xclk_0(undef) and /cam_xclk1(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/irq_0(undef) and /processing_system7_0/IRQ_F2P(intr)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/irq_0(undef) and /ps7_0_axi_periph/M01_ARESETN(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/peripheral_aresetn_0(undef) and /line_buffer_0/resetn(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/peripheral_aresetn_0(undef) and /ps7_0_axi_periph/ARESETN(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/peripheral_aresetn_0(undef) and /ps7_0_axi_periph/M00_ARESETN(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/peripheral_aresetn_0(undef) and /ps7_0_axi_periph/S00_ARESETN(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /line_buffer_0/reset_fifo(rst) and /fifo_generator_0/rst(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_RESET0_N(rst) and /cameras_wrapper_0/resetn_0(undef)
+Successfully read diagram <design_1> from BD file <C:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj/src/design_1/design_1.bd>
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/peripheral_aresetn_0(undef) and /Subsystem_ip_0/AXI4_Lite_ARESETN(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /cameras_wrapper_0/peripheral_aresetn_0(undef) and /Subsystem_ip_0/IPCORE_RESETN(rst)
+WARNING: [BD 41-927] Following properties on pin /blink_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_processing_system7_0_0_FCLK_CLK0 
+WARNING: [BD 41-927] Following properties on pin /cameras_wrapper_0/s_axi_aclk_0 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_processing_system7_0_0_FCLK_CLK0 
+WARNING: [BD 41-927] Following properties on pin /line_buffer_0/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_processing_system7_0_0_FCLK_CLK0 
+WARNING: [BD 41-927] Following properties on pin /Subsystem_ip_0/IPCORE_CLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_processing_system7_0_0_FCLK_CLK0 
+WARNING: [BD 41-927] Following properties on pin /Subsystem_ip_0/AXI4_Lite_ACLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_processing_system7_0_0_FCLK_CLK0 
+Wrote  : <C:\Projects\fusion2_HWaccel_IP\rgb_gauss_sobel_full_64\vivado_ip_prj\src\design_1\design_1.bd> 
+Wrote  : <C:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj/src/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : C:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj/src/design_1/synth/design_1.vhd
+VHDL Output written to : C:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj/src/design_1/sim/design_1.vhd
+VHDL Output written to : C:/Projects/fusion2_HWaccel_IP/rgb_gauss_sobel_full_64/vivado_ip_prj/src/design_1/hdl/design_1_wrapper.vhd
+make_wrapper: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 516.805 ; gain = 190.738
+INFO: [BD 5-320] Validate design is not run, since the design is already validated.
+INFO: [Common 17-206] Exiting Vivado at Thu May  4 18:22:15 2023...
